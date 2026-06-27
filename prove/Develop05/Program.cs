@@ -1,5 +1,3 @@
-using System;
-
 // This program exceeds the core requirements by adding a leveling system.
 // As the user earns points they level up through different titles:
 // Novice, Apprentice, Warrior, Hero, and Legend.
@@ -59,5 +57,4 @@ class Program
             }
         }
     }
-}
 }
