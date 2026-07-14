@@ -4,6 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation3 World!");
+        Dog dog = new Dog("Rex");
+        Cat cat = new Cat("Whiskers");
+
+        dog.MakeSound();
+        dog.Fetch();
+
+        Console.WriteLine();
+
+        cat.MakeSound();
+        cat.Purr();
     }
 }
